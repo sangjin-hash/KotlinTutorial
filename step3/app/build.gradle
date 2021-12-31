@@ -57,4 +57,7 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
 
+    //다중 메뉴
+    implementation "com.google.android.material:material:$version"
+
 }
