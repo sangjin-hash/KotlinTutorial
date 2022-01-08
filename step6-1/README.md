@@ -61,6 +61,7 @@ fun getAllNights(): LiveData<List<SleepNight>>          data type : LiveData<Lis
 ```
 
 ### 3. Create a Room database
+- Singleton pattern을 이용하여 전역적으로 사용할 수 있는 companion object를 선언함으로써, 모든 객체에서 getInstace를 통해 database를 접근할 수 있다. 따라서 synchronized를 통해 동기화를 해줘야 한다.
 
 ```Kotlin
 //This class is to act as a database holder.
